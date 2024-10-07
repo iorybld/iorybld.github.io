@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C9ADA7;
+}
+
+.header {
+    background-color: #9A8C98;
+    height: 80px;
+    margin: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a { 
+    color: #F2E9E4;
+    letter-spacing: 0.1rem;
+}
+
+ul li a:hover {
+    color: #4A4E69;
+    text-decoration: underline;
+}
+
+.menu li {
+    float: left;
+    padding: 35px;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+form { 
+    padding: 35px;
+    text-align: right;
+}
+
+input[type="search"] {
+    font-size: 17px;
+}
+table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+td{
+    color: #495057 ;
+}
